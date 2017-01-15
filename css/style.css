@@ -557,8 +557,11 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
+				position: relative;
+        			right: 55px;
+        			bottom: 65px;
+				border-radius: 25%;
+				width: 150%;
 			}
 
 /* List */
