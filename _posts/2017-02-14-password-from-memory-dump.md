@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hafıza İmajından Windows Parolalarını Elde Etme"
-date: 2017-02-14
+date: 2017-02-15
 categories: forensics
 ---
 Bu yazımda sizlere "volatility" ile hafıza imajından windows parolalarını elde etmeyi göstereceğim.Hafıza imajını kullandığım sistem "Windows 7 SP1 x86" olacak.Hafıza imajını "DumpIt" adlı tool ile kolayca alabilirsiniz.
