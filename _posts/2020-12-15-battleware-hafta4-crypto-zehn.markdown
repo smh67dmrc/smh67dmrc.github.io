@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Battleware CTF Write-Up Crypto Zehn"
-date: 2020-12-15 01:00:00 +0300
+date: 2020-12-15 00:00:00 +0300
 description: Battleware CTF Write-Up Crypto Zehn
 img: battleware.png
 tags: [CTF, Battleware, Write-Up, Capture The Flag]
