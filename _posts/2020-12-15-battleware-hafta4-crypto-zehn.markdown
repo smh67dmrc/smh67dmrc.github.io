@@ -122,9 +122,7 @@ while a < 21 :
 
 Base32 decode işlemleri sonucunda karşımıza çıkan metin dosyasını text editor üzerinde inceleyelim.
 
-<p align="center">
-  <img src="{{site.baseurl}}/assets/img/bw-04.png">
-</p>
+[ ![]({{site.baseurl}}/assets/img/bw-04.png) ]({{site.baseurl}}/assets/img/bw-04.png)
 
 Karşımıza çıkan sayı dizisinde çok fazla 3 rakamı bulunmaktadır. Belirli aralıklarla da 3'ten farklı rakamlar bulunmaktadır. Burada aklımıza [base10](Decimal) ve [base16](Hexadecimal) değerler olabileceği gelir. Fazla sayıda 3'ten kurtulmalıyız. Bunun için öncelikle 3'ten farklı değerlerin ne kadar karakter arayla konulduğunu tespit etmemiz ve gereksiz 3 rakamlarından kurtulmamız gerekir. Bunun için manuel olarak birkaç 3'ten farklı rakamı satır sonu olarak yapalım ve inceleyelim.
 
