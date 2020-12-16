@@ -64,6 +64,7 @@ Y2TUQwPQ==
 İnceleme sonunda karşımıza tekrar base64 encoded data çıkıyor. Bu durumda birden çok kez decode işlemi yapmamız gerektiğini anlıyoruz. Birkaç satır kod yazarak bu işi yapan python scriptini yazalım.
 
 {% highlight ruby %}
+------------ solve.py ------------
 import os
 
 os.system("mv n3rd.txt 1.txt")
@@ -74,6 +75,10 @@ while a < 15 :
         os.system("cat " + str(a) + ".txt | base64 --decode > " + str(b) + ".txt")
         a = a + 1
         b = b + 1
+{% endhighlight %}
+
+{% highlight ruby %}
+kali@kali:~/battleware-ctf/hafta4$ python solve.py
 {% endhighlight %}
 
 Yazdığımız kod sıralı bir şekilde base64 decode işlemi yapıyor ve bu işlemi yaparken her bir decode edilmiş çıktıyı numaralı şekilde farklı bir dosyaya kaydediyor. Kaç kez decode işlemi yapmamız gerektiğini bilmediğimiz için rastgele bir sayı veriyoruz. Daha sonra sonuçları inceleyerek bu sayının yeterli olup olmadığına karar vereceğiz.
@@ -110,6 +115,7 @@ Soru ismi zehn 10 anlamına gelmektedir. Aslında sorunun ismi kaç kez decode i
 Yazmış olduğumuz kod üzerinde ufak bir düzenleme yaparak base32 ile decode etmeye devam edelim.
 
 {% highlight ruby %}
+------------ solve.py ------------
 import os
 
 a = 11
@@ -118,6 +124,10 @@ while a < 21 :
         os.system("cat " + str(a) + ".txt | base32 --decode > " + str(b) + ".txt")
         a = a + 1
         b = b + 1
+{% endhighlight %}
+
+{% highlight ruby %}
+kali@kali:~/battleware-ctf/hafta4$ python solve.py
 {% endhighlight %}
 
 <center>
