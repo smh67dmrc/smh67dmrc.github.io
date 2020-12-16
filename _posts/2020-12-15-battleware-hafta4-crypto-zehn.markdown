@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Battleware CTF Write-Up Crypto Zehn"
-date: 2020-12-15 05:00:00 +0300
+date: 2020-12-15 01:00:00 +0300
 description: Battleware CTF Write-Up Crypto Zehn
 img: battleware.png
 tags: [CTF, Battleware, Write-Up, Capture The Flag]
@@ -78,15 +78,19 @@ while a < 15 :
 
 Yazdığımız kod sıralı bir şekilde base64 decode işlemi yapıyor ve bu işlemi yaparken her bir decode edilmiş çıktıyı numaralı şekilde farklı bir dosyaya kaydediyor. Kaç kez decode işlemi yapmamız gerektiğini bilmediğimiz için rastgele bir sayı veriyoruz. Daha sonra sonuçları inceleyerek bu sayının yeterli olup olmadığına karar vereceğiz.
 
-<p align="center">
-  <img src="{{site.baseurl}}/assets/img/bw-01.png">
-</p>
+<center>
+  <div>
+      <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-01.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-01.png" alt="image-1" /></a>
+	</div>
+</center>
 
 Dosya boyutlarından da görülebileceği gibi 13.txt dosyasından itibaren boş dosyalar oluşmuş. Dolu gözüken son metin dosyasını inceleyelim.
 
-<p align="center">
-  <img src="{{site.baseurl}}/assets/img/bw-02.png">
-</p>
+<center>
+  <div>
+      <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-02.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-02.png" alt="image-1" /></a>
+	</div>
+</center>
 
 Karşımıza ascii formatında olmayan anlamsız bir karakter dizisi çıkıyor. Bunun sebebini anlamak için bir önceki dolu metin dosyasını inceleyelim.
 
@@ -116,25 +120,33 @@ while a < 21 :
         b = b + 1
 {% endhighlight %}
 
-<p align="center">
-  <img src="{{site.baseurl}}/assets/img/bw-03.png">
-</p>
+<center>
+  <div>
+      <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-03.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-03.png" alt="image-1" /></a>
+	</div>
+</center>
 
 Base32 decode işlemleri sonucunda karşımıza çıkan metin dosyasını text editor üzerinde inceleyelim.
 
-<p align="center">
-  <img src="{{site.baseurl}}/assets/img/bw-04.png">
-</p>
+<center>
+  <div>
+      <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-04.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-04.png" alt="image-1" /></a>
+	</div>
+</center>
 
 Karşımıza çıkan sayı dizisinde çok fazla 3 rakamı bulunmaktadır. Belirli aralıklarla da 3'ten farklı rakamlar bulunmaktadır. Burada aklımıza [base10](Decimal) ve [base16](Hexadecimal) değerler olabileceği gelir. Fazla sayıda 3'ten kurtulmalıyız. Bunun için öncelikle 3'ten farklı değerlerin ne kadar karakter arayla konulduğunu tespit etmemiz ve gereksiz 3 rakamlarından kurtulmamız gerekir. Bunun için manuel olarak birkaç 3'ten farklı rakamı satır sonu olarak yapalım ve inceleyelim.
 
-<p align="center">
-  <img src="{{site.baseurl}}/assets/img/bw-05.png">
-</p>
+<center>
+  <div>
+      <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-05.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-05.png" alt="image-1" /></a>
+	</div>
+</center>
 
-<p align="center">
-  <img src="{{site.baseurl}}/assets/img/bw-06.png">
-</p>
+<center>
+  <div>
+      <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-06.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-06.png" alt="image-1" /></a>
+	</div>
+</center>
 
 En kısa aralığın 255 olduğunu görüyoruz. Text editor'ün replace özelliğini kullanarak her 255 adet 3 rakamını silelim. Bunun anlamı dosyanın başından sonuna kadar sadece 256. sıradaki karakterlerin kalmasını sağlamaktır.
 
@@ -157,6 +169,7 @@ Flag{nicedayforfishingaintit}
 {% endhighlight %}
 
 Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle..
+
 
 [Battleware]: https://battleware.zone/
 [Base64]: https://en.wikipedia.org/wiki/Base64
