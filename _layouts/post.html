@@ -13,7 +13,7 @@ layout: main
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
 		  <a href="https://t.me/share?url={{ site.url }}{{ page.url }}" class="tgme_widget_share_btn"><i class="tgme_widget_share_icon"></i><span class="tgme_widget_share_label" target="_blank">Telegram</span></a>
-		  <a href="https://www.linkedin.com/sharing/share-offsite/?url=smh67dmrc.github.io/{{ page.url }}" title="Share on Linkedin" rel="nofollow" target="_blank">Linkedin</a>
+		  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" title="Share on Linkedin" rel="nofollow" target="_blank">Linkedin</a>
         </div>
 		<div class="page-tag">
           {% for tag in page.tags %}
