@@ -8,6 +8,8 @@ tags: [CTF, Battleware, Write-Up, Capture The Flag]
 ---
 Selamlar, bu yazımda [Battleware] CTF yarışmasında sorulan `Crypto` kategorisinden `Zehn` isimli sorunun çözümünü anlatacağım. Battleware CTF yarışması 8 Hafta sürecek bir yarışmadır. Bu soru 4.Haftada sorulan sorulardan biridir.
 
+Soru dosyası : [n3rd.rar]
+
 Soruda `n3rd.txt` isminde bir metin dosyası verilmiş. Dosyayı incelediğimizde boyutunun sıradan bir metin dosyasına göre çok büyük olduğunu görüyoruz. 
 
 {% highlight ruby %}
@@ -187,5 +189,5 @@ Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileği
 [base16]: https://en.wikipedia.org/wiki/Hexadecimal
 [base10]: https://en.wikipedia.org/wiki/Decimal
 [ascii table]: https://en.wikipedia.org/wiki/ASCII
-
+[n3rd.rar]: {{site.baseurl}}/assets/files/n3rd.rar
 
