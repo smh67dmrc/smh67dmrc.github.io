@@ -8,6 +8,8 @@ tags: [CTF, Battleware, Write-Up, Capture The Flag]
 ---
 Selamlar, bu yazımda [Battleware] CTF yarışmasında sorulan `Osint` kategorisinden `Easy` isimli sorunun çözümünü anlatacağım. Battleware CTF yarışması 8 Hafta sürecek bir yarışmadır. Bu soru 4.Haftada sorulan sorulardan biridir.
 
+Soru dosyası : [bw]
+
 Soruda `bw` isminde bir dosya verilmiş. Dosya içeriğini incelediğimizde içerisinde koordinat bilgilerinin yer aldığını görüyoruz.
 
 <center>
@@ -64,3 +66,4 @@ Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileği
 
 [Battleware]: https://battleware.zone/
 [Google Earth]: https://earth.google.com/web/
+[bw]: {{site.baseurl}}/assets/files/bw
