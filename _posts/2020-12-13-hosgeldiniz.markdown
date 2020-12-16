@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hoşgeldiniz !"
-date: 2020-12-13 05:00:00 +0300
+date: 2020-12-13 01:00:00 +0300
 description: # Add post description (optional)
 img: welcome.png
 ---
