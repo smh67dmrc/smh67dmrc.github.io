@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Battleware CTF Write-Up GG"
-date: 2020-12-17 01:00:00 +0300
+date: 2020-12-17 05:00:00 +0300
 description: Battleware CTF Write-Up GG
 img: battleware.png
 tags: [CTF, Battleware, Write-Up, Capture The Flag]
