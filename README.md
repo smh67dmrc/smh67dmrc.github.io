@@ -1,1 +1,0 @@
-![HitCount](http://hits.dwyl.com/smh67dmrc/counter.svg)
