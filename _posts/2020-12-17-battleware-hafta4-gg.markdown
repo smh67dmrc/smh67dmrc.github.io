@@ -25,12 +25,12 @@ Soruda `GG.txt` isminde bir dosya verilmiş. Dosya içeriğini incelediğimizde 
       <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-21.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-21.png" alt="image-1" /></a>
 	</div>
 </center>
-
-{% highlight ruby %}
+<br>
+```
 Flag{c4nt_wa1T_t0_pr1NT_th1sS}
-{% endhighlight %}
+```
 
-Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle..
+Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle.. :smiley:
 
 [Battleware]: https://battleware.zone/
 [GG.txt]: {{site.baseurl}}/assets/files/GG.txt

@@ -20,7 +20,6 @@ Soruda `captured` isminde bir pcap dosyası verilmiş.
 
 Pcap dosyasını wireshark ile incelediğimizde http paketleri içerisinde bir jpg dosyası karşımıza çıkıyor. Jpg dosyasının bulunduğu paketi seçip aşağıdaki bölümden dosyanın içeriğinin olduğu yere sağ tıklayıp "show packet bytes" seçeneği ile resmi inceleyelim.
 
-
 <center>
   <div>
       <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-51.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-51.png" alt="image-1" /></a>
@@ -35,16 +34,13 @@ Pcap dosyasını wireshark ile incelediğimizde http paketleri içerisinde bir j
 	</div>
 </center>
 
-
 Resmi detaylı incelemek için kaydedelim. Resim içerisinde gizli bir bilgi olup olmadığını steghide aracı ile inceleyelim.
-
 
 <center>
   <div>
       <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-53.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-53.png" alt="image-1" /></a>
 	</div>
 </center>
-
 
 Resmin içerisine bir txt dosyası gizlendiğini farkediyoruz. Yine steghide aracıyla passphrase olmadan txt dosyasını resmin içinden çıkartalım ve içeriğini okuyalım.
 
@@ -59,11 +55,11 @@ Flag{too_e4sy}
 
 Flag değerini elde etmiş olduk.
 
-{% highlight ruby %}
+```
 Flag{too_e4sy}
-{% endhighlight %}
+```
 
-Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle..
+Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle.. :smile:
 
 [Battleware]: https://battleware.zone/
 [captured.pcap]: {{site.baseurl}}/assets/files/captured.pcap

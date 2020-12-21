@@ -18,9 +18,7 @@ Soruda `hunter6` isminde bir pcap dosyası verilmiş.
 	</div>
 </center>
 
-
 Soru1 metninde `hmoreo` kullanıcısına gönderilen mailde bulunan bir dokümandan bahsediliyor. İçinde zararlı kodun olduğu dokümanı bulmamız ve pcap dosyasının içerisinden çıkartmamız gerekli. `Hunter6` ismindeki pcap dosyasını `wireshark` aracıyla açalım ve `SMTP` filtresiyle birlikte soruda adı geçen dokümanı bulalım. Pakete sağ tıklayıp `Follow => TCP Stream` seçeneği ile tüm akışa bakalım.
-
 
 <center>
   <div>
@@ -33,7 +31,6 @@ Soru1 metninde `hmoreo` kullanıcısına gönderilen mailde bulunan bir doküman
       <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-62.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-62.png" alt="image-1" /></a>
 	</div>
 </center>
-
 
 Akışı incelediğimizde `Customer_Information_List` isminde bir zip dosyasının mail ekinde gönderildiğini görüyoruz. Soru1'in cevabını `Customer_Information_List.zip` olarak bulduk. 
 
@@ -70,16 +67,15 @@ Excel dosyasını açarak zararlı kodu bulalım.
 	</div>
 </center>
 
-
 A1 hücresinde yazılmış olan zararlı kod içinde exe isminin `rundll32` olduğunu gördük. Böylece soru2'nin de cevabını bulmuş olduk.
 
 Soruda istenen cevapları flag formatı içine yerleştirelim flagi oluşturalım.
 
-{% highlight ruby %}
+```
 Flag{Customer_Information_List.zip,rundll32.exe}
-{% endhighlight %}
+```
 
-Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle..
+Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle.. :smile:
 
 [Battleware]: https://battleware.zone/
 [hunter6.pcap]: {{site.baseurl}}/assets/files/hunter6.pcap

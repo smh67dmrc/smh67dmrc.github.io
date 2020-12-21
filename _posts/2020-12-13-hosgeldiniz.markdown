@@ -2,7 +2,7 @@
 layout: post
 title: "Hoşgeldiniz !"
 date: 2020-12-13 05:00:00 +0300
-description: # Add post description (optional)
+description: Hoşgeldiniz
 img: welcome.png
 ---
 Hoşgeldiniz Sevgili Dostlar,
@@ -11,4 +11,4 @@ Uzun zamandır faaliyete geçirmeyi düşündüğüm blog sayfamın nihayet yay�
 
 Okurken keyif almanız ve öğrenmeniz temennisiyle..
 
-İyi günler dilerim. 
+İyi günler dilerim. :smiley:

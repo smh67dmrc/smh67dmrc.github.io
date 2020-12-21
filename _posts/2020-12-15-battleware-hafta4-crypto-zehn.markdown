@@ -153,7 +153,7 @@ Karşımıza çıkan sayı dizisinde çok fazla 3 rakamı bulunmaktadır. Belirl
       <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-05.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-05.png" alt="image-1" /></a>
 	</div>
 </center>
-
+<br>
 <center>
   <div>
       <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-06.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-06.png" alt="image-1" /></a>

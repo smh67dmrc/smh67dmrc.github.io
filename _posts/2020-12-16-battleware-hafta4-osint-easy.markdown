@@ -57,12 +57,12 @@ Flag değerimiz harita üzerinde görünür duruma geliyor.
       <a class="example-image-link" href="{{site.baseurl}}/assets/img/bw-15.png" data-lightbox="example-1"><img class="example-image" src="{{site.baseurl}}/assets/img/bw-15.png" alt="image-1" /></a>
 	</div>
 </center>
-
-{% highlight ruby %}
+<br>
+```
 Flag{BW1337TR2020}
-{% endhighlight %}
+```
 
-Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle..
+Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle.. :smiley:
 
 [Battleware]: https://battleware.zone/
 [Google Earth]: https://earth.google.com/web/

@@ -20,9 +20,9 @@ Soruda `weird` isminde bir pdf dosyası verilmiş. Dosya içeriğini incelediği
 
 Öncelikle bu gösterimi anlamamız gerekli. Her bir satırda "+" işaretiyle ayrılmış aynı bit değerine sahip bit dizileri mevcut. İlk satırdaki iki eleman ile örnekleyelim. 
 
-{% highlight ruby %}
+```
 Örnek : 0x17+1x1 : 17 Adet 0 biti + 1 Adet 1 biti : 000000000000000001
-{% endhighlight %}
+```
 
 Örnekte görüldüğü gibi dosya içindeki 25 satırda yer alan bu ifadeleri açmamız gerekli. Fakat bu işlemi manuel olarak yapmamız mümkün değil. Bu işlemi yapan python scriptimizi yazalım.
 
@@ -90,11 +90,11 @@ Bazı bitler arasında boşluklar bulunmaktadır. Bunun sebebi orjinal dosyada d
 
 Flag değerimiz belirgin bir şekilde ortaya çıkıyor.
 
-{% highlight ruby %}
+```
 Flag{NOTTHATWEIRDRIGHT?}
-{% endhighlight %}
+```
 
-Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle..
+Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle.. :smile:
 
 [Battleware]: https://battleware.zone/
 [weird.pdf]: {{site.baseurl}}/assets/files/weird.pdf
