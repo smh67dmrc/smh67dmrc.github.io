@@ -65,7 +65,7 @@ Y2TUQwPQ==
 
 İnceleme sonunda karşımıza tekrar base64 encoded data çıkıyor. Bu durumda birden çok kez decode işlemi yapmamız gerektiğini anlıyoruz. Birkaç satır kod yazarak bu işi yapan python scriptini yazalım.
 
-{% highlight ruby %}
+```python
 ------------ solve.py ------------
 import os
 
@@ -77,7 +77,7 @@ while a < 15 :
         os.system("cat " + str(a) + ".txt | base64 --decode > " + str(b) + ".txt")
         a = a + 1
         b = b + 1
-{% endhighlight %}
+```
 
 {% highlight ruby %}
 kali@kali:~/battleware-ctf/hafta4$ python solve.py
@@ -116,7 +116,7 @@ Soru ismi zehn 10 anlamına gelmektedir. Aslında sorunun ismi kaç kez decode i
 
 Yazmış olduğumuz kod üzerinde ufak bir düzenleme yaparak base32 ile decode etmeye devam edelim.
 
-{% highlight ruby %}
+```python
 ------------ solve.py ------------
 import os
 
@@ -126,7 +126,7 @@ while a < 21 :
         os.system("cat " + str(a) + ".txt | base32 --decode > " + str(b) + ".txt")
         a = a + 1
         b = b + 1
-{% endhighlight %}
+```
 
 {% highlight ruby %}
 kali@kali:~/battleware-ctf/hafta4$ python solve.py
@@ -162,9 +162,9 @@ Karşımıza çıkan sayı dizisinde çok fazla 3 rakamı bulunmaktadır. Belirl
 
 En kısa aralığın 255 olduğunu görüyoruz. Text editor'ün replace özelliğini kullanarak her 255 adet 3 rakamını silelim. Bunun anlamı dosyanın başından sonuna kadar sadece 256. sıradaki karakterlerin kalmasını sağlamaktır.
 
-{% highlight ruby %}
+```
 Output : 343636433631363737423645363936333635363436313739363636463732363636393733363836393645363736313639364537343639373437443041
-{% endhighlight %}  
+```  
 
 Tüm gerekli olan 3 rakamları ile birlikte datamızı oluşturduk. Burada decimal veya hexadecimal seçeneklerini deniyoruz ve hexadecimal değerlerden ascii formatına([ascii table]) dönüşerek yine hexadecimal formatta bir başka çıktı verdiğini görüyoruz.
 
@@ -180,7 +180,11 @@ kali@kali:~/battleware-ctf/hafta4$ echo 466C61677B6E696365646179666F726669736869
 Flag{nicedayforfishingaintit}
 {% endhighlight %}
 
-Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle..
+```
+Flag{nicedayforfishingaintit}
+```
+
+Yazımı okuduğunuz için teşekkürler, bir başka yazıda görüşmek dileğiyle.. :smiley:
 
 
 [Battleware]: https://battleware.zone/
