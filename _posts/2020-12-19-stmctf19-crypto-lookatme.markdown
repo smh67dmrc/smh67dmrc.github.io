@@ -4,7 +4,7 @@ title: "STMCTF'19 Write-Up Crypto Look At Me"
 date: 2020-12-20 05:00:00 +0300
 description: STMCTF'19 Write-Up Crypto Look At Me
 img: stmctf19.jpg
-tags: [CTF, STMCTF19, Write-Up, Capture The Flag]
+tags: [STMCTF19]
 ---
 Selamlar, bu yazımda [STMCTF'19] yarışmasında sorulan `Crypto` kategorisinden `Look At Me` isimli sorunun çözümünü anlatacağım.
 

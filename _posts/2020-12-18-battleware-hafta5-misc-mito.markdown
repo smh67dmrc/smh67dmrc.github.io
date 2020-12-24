@@ -4,7 +4,7 @@ title: "Battleware CTF Write-Up Misc Mito"
 date: 2020-12-18 05:00:00 +0300
 description: Battleware CTF Write-Up Misc Mito
 img: battleware.png
-tags: [CTF, Battleware, Write-Up, Capture The Flag]
+tags: [Battleware]
 ---
 Selamlar, bu yazımda [Battleware] CTF yarışmasında sorulan `Misc` kategorisinden `Mito` isimli sorunun çözümünü anlatacağım. Battleware CTF yarışması 8 Hafta sürecek bir yarışmadır. Bu soru 5.Haftada sorulan sorulardan biridir.
 

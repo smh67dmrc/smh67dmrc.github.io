@@ -4,7 +4,7 @@ title: "Battleware CTF Write-Up Osint GG"
 date: 2020-12-17 05:00:00 +0300
 description: Battleware CTF Write-Up Osint GG
 img: battleware.png
-tags: [CTF, Battleware, Write-Up, Capture The Flag]
+tags: [Battleware]
 ---
 Selamlar, bu yazımda [Battleware] CTF yarışmasında sorulan `Osint` kategorisinden `GG` isimli sorunun çözümünü anlatacağım. Battleware CTF yarışması 8 Hafta sürecek bir yarışmadır. Bu soru 4.Haftada sorulan sorulardan biridir.
 

@@ -4,7 +4,7 @@ title: "STMCTF'19 Write-Up Crypto Pseudo Words"
 date: 2020-12-22 05:00:00 +0300
 description: STMCTF'19 Write-Up Crypto Pseudo Words
 img: stmctf19.jpg
-tags: [CTF, STMCTF19, Write-Up, Capture The Flag]
+tags: [STMCTF19]
 ---
 Selamlar, bu yazımda [STMCTF'19] yarışmasında sorulan `Crypto` kategorisinden `Pseudo Words` isimli sorunun çözümünü anlatacağım.
 

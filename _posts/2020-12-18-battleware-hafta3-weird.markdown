@@ -4,7 +4,7 @@ title: "Battleware CTF Write-Up Forensics Weird"
 date: 2020-12-18 05:00:00 +0300
 description: Battleware CTF Write-Up Forensics Weird
 img: battleware.png
-tags: [CTF, Battleware, Write-Up, Capture The Flag]
+tags: [Battleware]
 ---
 Selamlar, bu yazımda [Battleware] CTF yarışmasında sorulan `Forensics` kategorisinden `Weird` isimli sorunun çözümünü anlatacağım. Battleware CTF yarışması 8 Hafta sürecek bir yarışmadır. Bu soru 3.Haftada sorulan sorulardan biridir.
 
